@@ -33,3 +33,24 @@ let extraStudents = students % 3;
 
 console.log("Extra Students: ",extraStudents);
 console.log("Students: ",students);
+
+//TESTE 3   
+
+let result = 1 + 2 * (3 + 4);
+console.log(result);
+
+//How to acecept user input
+
+//EASY WAY with a window prompt
+
+/*
+    let username = window.prompt("What is your name?");
+    console.log("Hello, ", username);
+*/
+
+//Dificult way HTML textbox
+let username;
+
+document.getElementById("myButton").onclick = function() {
+    username = document.getElementById("myText").value;
+}

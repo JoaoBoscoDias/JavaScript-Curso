@@ -39,7 +39,7 @@ body {
 
 /* CONTEUDO 1 */
 
-.conteudo-1 {
+.conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,23 +48,57 @@ body {
     margin-bottom: 8rem;
 }
 
-.conteudo-1-title {
+.conteudo-title {
     color: #fff;
     font-size: 3rem;
     margin-bottom: 2rem;
     border-bottom: 3px solid #fca311;
 }
 
-.conteudo-1 ul {
+.conteudo ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.conteudo-1 li {
+.conteudo li {
     color: #fff;
     font-size: 1rem;
     margin-bottom: 2rem;
     border-bottom: 3px solid #fca311;
 }
+
+.conteudo label {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #fca311;
+}
+
+.conteudo input {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    border: 3px solid #fca311;
+    background: transparent;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.conteudo button {
+    padding: 10px;
+    border-radius: 12px;
+    border: 3px solid #fca311;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.conteudo button:hover {
+    background-color: #fca311;
+    color: #14213d;
+    transition: all 0.2s ease;
+}
+
+
